@@ -1,3 +1,5 @@
+// Inicializa la puntuación en 0
+let puntaje = 0
 const opciones = ["piedra", "papel", "tijera"]
 
 function eleccionPc(){
@@ -13,44 +15,44 @@ function ronda(eleccionJugador, eleccionCompu){
         (eleccionJugador === "papel" && eleccionCompu === "piedra") ||
         (eleccionJugador === "tijera" && eleccionCompu === "papel")
     ){
+        // Suma 3 puntos al puntaje si ganas
+        puntaje += 3;
         return "¡Ganaste!"
     }else{
         return "¡Perdiste!"
     }
 }
 
-function partida(eleccionJugador) {
+function partida(eleccionJugador){
     const eleccionCompu = eleccionPc()
     const resultado = ronda(eleccionJugador, eleccionCompu)
     const resultadoMostrado = document.querySelector(".resultado p")
     resultadoMostrado.textContent = `Elegiste ${eleccionJugador}. La computadora eligió ${eleccionCompu}. ${resultado}`
 
-    if (resultado === "¡Ganaste!") {
+    if(resultado === "¡Ganaste!"){
         Toastify({
             text: "¡Sumaste 3 puntos!",
             className: "info",
             style: {
-            background: "#98CD3C",
-            }
+                background: "#98CD3C",
+            },
         }).showToast()
     }
 
-// uso de Storage
-    const resultadoJuego = {
-        eleccionJugador,
-        eleccionCompu,
-        resultado,
-        timestamp: new Date().toLocaleString()
-    }
-
-    const historial = JSON.parse(localStorage.getItem("historial")) || []
-    historial.push(resultadoJuego)
-    localStorage.setItem("historial", JSON.stringify(historial))
+// Guarda el puntaje en local
+localStorage.setItem("puntaje", puntaje)
 }
+
+// Recupera el puntaje almacenado en local
+puntaje = parseInt(localStorage.getItem("puntaje")) || 0
+
+// Muestra el puntaje
+const puntajeMostrado = document.querySelector(".puntaje")
+puntajeMostrado.textContent = `Puntaje: ${puntaje}`
 
 const botones = document.querySelectorAll("button")
 botones.forEach((button) => {
     button.addEventListener("click", () => {
-        partida(button.id)
-    })
-})
+    partida(button.id);
+    });
+});
