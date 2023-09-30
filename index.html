@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <h1>Piedra, Papel o Tijera</h1>
-    <h2>¡Hace tu jugada!</h2>
+    <h2>¡Hacé tu jugada!</h2>
+
     <div class="container">
         <button id="piedra" class="boton">
             <img src="./images/piedra.png" alt="Piedra">
@@ -21,11 +23,33 @@
             <img src="./images/tijera.png" alt="Tijera">
         </button>
     </div>
+
     <div class="resultado">
         <p>Resultado del juego</p>
     </div>
+
     <div class="puntaje">
     </div>
+
+    <button id="shop" type="button" class="">
+        <img src="./images/regalo.png" alt="shop">
+    </button>
+
+    <div class="modal" id="shopModal">
+
+        <div class="modal-content">
+            <span class="close" id="cerrarModal">&times;</span>
+            <h2>Medallas</h2>
+            <div id="medallasLista" class="lista-medallas">
+                <div class="medalla">
+                    <button id="medalla#1" class="btn-comprar" onclick="comprarMedalla(1)">
+                        Comprar regalo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="scripts.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
