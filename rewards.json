@@ -1,52 +1,52 @@
 {
     "regalos": [
         {
-        "nombre": "Medalla de Chloe",
-        "descripcion": "Una medalla con la cara de Chloe",
-        "puntos": 50,
-        "imagen": "/images/Chloe.png"
+            "id": "Chloe",
+            "descripcion": "Medalla de Chloe",
+            "puntos": 2,
+            "imagen": "/images/Chloe.png"
         },
         {
-        "nombre": "Medalla de Socks",
-        "descripcion": "Una medalla con la cara de Socks",
-        "puntos": 100,
-        "imagen": "/images/Socks.png"
+            "id": "Socks",
+            "descripcion": "Medalla de Socks",
+            "puntos": 2,
+            "imagen": "/images/Socks.png"
         },
         {
-        "nombre": "Medalla de Muffin",
-        "descripcion": "Una medalla con la cara de Muffin",
-        "puntos": 150,
-        "imagen": "/images/Muffin.png"
+            "id": "Muffin",
+            "descripcion": "Medalla de Muffin",
+            "puntos": 2,
+            "imagen": "/images/Muffin.png"
         },
         {
-        "nombre": "Medalla de Trixie",
-        "descripcion": "Una medalla con la cara de Trixie",
-        "puntos": 200,
-        "imagen": "/images/Trixie.png"
+            "id": "Trixie",
+            "descripcion": "Medalla de Trixie",
+            "puntos": 2,
+            "imagen": "/images/Trixie.png"
         },
         {
-        "nombre": "Medalla de Bandit",
-        "descripcion": "Una medalla con la cara de Bandit",
-        "puntos": 250,
-        "imagen": "/images/Bandit.png"
+            "id": "Bandit",
+            "descripcion": "Medalla de Bandit",
+            "puntos": 4,
+            "imagen": "/images/Bandit.png"
         },
         {
-        "nombre": "Medalla de Chilli",
-        "descripcion": "Una medalla con la cara de Chilli",
-        "puntos": 300,
-        "imagen": "/images/Chilli.png"
+            "id": "Chilli",
+            "descripcion": "Medalla de Chilli",
+            "puntos": 4,
+            "imagen": "/images/Chilli.png"
         },
         {
-        "nombre": "Medalla de Bingo",
-        "descripcion": "Una medalla con la cara de Bingo",
-        "puntos": 350,
-        "imagen": "/images/Bingo.png"
+            "id": "Bingo",
+            "descripcion": "Medalla de Bingo",
+            "puntos": 4,
+            "imagen": "/images/Bingo.png"
         },
         {
-        "nombre": "Medalla de Bluey",
-        "descripcion": "Una medalla con la cara de Bluey",
-        "puntos": 400,
-        "imagen": "/images/Bluey.png"
+            "id": "Bluey",
+            "descripcion": "Medalla de Bluey",
+            "puntos": 4,
+            "imagen": "/images/Bluey.png"
         }
     ]
 }
