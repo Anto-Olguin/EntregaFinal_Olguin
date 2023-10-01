@@ -4,49 +4,49 @@
             "id": "Chloe",
             "descripcion": "Medalla de Chloe",
             "puntos": 2,
-            "imagen": "./images/chloe.png"
+            "imagen": "./images/Chloe.png"
         },
         {
             "id": "Socks",
             "descripcion": "Medalla de Socks",
             "puntos": 2,
-            "imagen": "images/socks.png"
+            "imagen": "./images/Socks.png"
         },
         {
             "id": "Muffin",
             "descripcion": "Medalla de Muffin",
             "puntos": 2,
-            "imagen": "./images/muffin.png"
+            "imagen": "./images/Muffin.png"
         },
         {
             "id": "Trixie",
             "descripcion": "Medalla de Trixie",
             "puntos": 2,
-            "imagen": "./images/trixie.png"
+            "imagen": "./images/Trixie.png"
         },
         {
             "id": "Bandit",
             "descripcion": "Medalla de Bandit",
             "puntos": 4,
-            "imagen": "./images/bandit.png"
+            "imagen": "./images/Bandit.png"
         },
         {
             "id": "Chilli",
             "descripcion": "Medalla de Chilli",
             "puntos": 4,
-            "imagen": "./images/chilli.png"
+            "imagen": "./images/Chilli.png"
         },
         {
             "id": "Bingo",
             "descripcion": "Medalla de Bingo",
             "puntos": 4,
-            "imagen": "./images/bingo.png"
+            "imagen": "./images/Bingo.png"
         },
         {
             "id": "Bluey",
             "descripcion": "Medalla de Bluey",
             "puntos": 4,
-            "imagen": "./images/bluey.png"
+            "imagen": "./images/Bluey.png"
         }
     ]
 }
